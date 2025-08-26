@@ -26,10 +26,8 @@ Key risks and opportunities addressed:
 - **Scenario Brief** → [`scenario_02_retention_snapshot.md`](scenari_02_retention_snapshot.md) - Overview of the simulated business scenario.  
 - **Executive Summary (Quick Read)** → [`reports/executive_retention_summary.md`](reports/executive_retention_summary.md) – High-level insights, risks, and recommendations.  
 - **SQL Sessions (Deeper Dive)** → [`sql_sessions/`](sql_sessions/) – SQL queries for building retention views and data pipeline.  
-- **Analysis Notebook (Full Analysis & Visuals, Primary Deliverable)** → [`Executive_Retention_Report.ipynb`](Executive_Retention_Report.ipynb) – Visual storytelling and diagnostic 
-  - [View in nbviewer](https://nbviewer.org/github/G-Schumacher44/sql_stories_portfolio_demo/blob/main/story_02_customer_retention_snapshot/Executive_Retention_Report.ipynb)
-&nbsp;
- 
+- **Analysis Notebook (Full Analysis & Visuals, Primary Deliverable)** → [`Executive_Retention_Report.ipynb`](https://nbviewer.org/github/G-Schumacher44/sql_stories_portfolio_demo/blob/main/story_02_customer_retention_snapshot/Executive_Retention_Report.ipynb)
+&nbsp; – Visual storytelling and diagnostic 
 
 
 
