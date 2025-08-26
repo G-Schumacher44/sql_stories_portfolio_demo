@@ -71,7 +71,8 @@ This framework provides a structured, repeatable way to diagnose retention healt
 
 ## 📊 Key Deliverables
 - **Executive Summary** → [`reports/executive_retention_summary.md`](reports/executive_retention_summary.md)  
-- **Analysis Notebook** → [`Executive_Retention_Report.ipynb`](Executive_Retention_Report.ipynb) → Full analysis and visual storytelling. 
+- **Analysis Notebook (Full Analysis & Visuals, Primary Deliverable)** → [`Executive_Retention_Report.ipynb`](https://nbviewer.org/github/G-Schumacher44/sql_stories_portfolio_demo/blob/main/story_02_customer_retention_snapshot/Executive_Retention_Report.ipynb)
+&nbsp;
   
 ---
 
