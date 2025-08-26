@@ -26,7 +26,15 @@ Key risks and opportunities addressed:
 - **Scenario Brief** → [`scenario_02_retention_snapshot.md`](scenari_02_retention_snapshot.md) - Overview of the simulated business scenario.  
 - **Executive Summary (Quick Read)** → [`reports/executive_retention_summary.md`](reports/executive_retention_summary.md) – High-level insights, risks, and recommendations.  
 - **SQL Sessions (Deeper Dive)** → [`sql_sessions/`](sql_sessions/) – SQL queries for building retention views and data pipeline.  
-- **Analysis Notebook (Full Analysis & Visuals, Primary Deliverable)** → [`Executive_Retention_Report.ipynb`](Executive_Retention_Report.ipynb) – Visual storytelling and diagnostic deep-dive.   
+- **Analysis Notebook (Full Analysis & Visuals, Primary Deliverable)** → [`Executive_Retention_Report.ipynb`](Executive_Retention_Report.ipynb) – Visual storytelling and diagnostic 
+  - [View in nbviewer (fast)](https://nbviewer.org/github/G-Schumacher44/sql_stories_portfolio_demo/blob/main/story_02_customer_retention_snapshot/Executive_Retention_Report.ipynb)
+&nbsp;|&nbsp;
+  - [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/G-Schumacher44/sql_stories_portfolio_demo/HEAD?labpath=story_02_customer_retention_snapshot%2FExecutive_Retention_Report.ipynb)
+&nbsp;|&nbsp;
+  - [Open on GitHub](https://github.com/G-Schumacher44/sql_stories_portfolio_demo/blob/main/story_02_customer_retention_snapshot/Executive_Retention_Report.ipynb)
+
+
+
 
  > 📝 **Note for Portfolio Reviewers**  
 > This case study is designed to demonstrate how I approach **retention analytics** — from SQL cohort building to business storytelling.  
