@@ -118,7 +118,7 @@ def get_sheet_id_from_secrets(story_config, secrets):
     
     return sheet_id
 
-def export_story_to_sheet(story_name, stories_config):
+def export_story_to_sheet(story_name, stories_config, db_path):
     """
     Connects to SQLite, gets the configuration for the specified story,
     and exports the defined views to the corresponding Google Sheet.
