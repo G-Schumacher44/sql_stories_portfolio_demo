@@ -1,32 +1,37 @@
 # ==============================================================================
-# stories_config.yaml
+# stories_config.yaml (TEMPLATE)
 #
 # Central configuration for the data pipeline. This file maps each "story"
 # to its corresponding Google Sheet and defines which database views to export.
 #
-# How it works:
-# The `run_story.sh` script calls `g_drive_uploader.py` with a story name.
-# The uploader script uses this file to find:
-#   1. `sheet_id_var`: The name of the variable in `secrets.yaml` that holds the Google Sheet ID.
-#   2. `exports` or `view_prefix`: The specific views to upload.
-#      - `exports`: A specific list of views and their target sheet (tab) names.
-#      - `view_prefix`: A prefix to automatically find and upload all matching views.
+# ==> IMPORTANT:
+# 1. RENAME this file to `stories_config.yaml` after reviewing.
+# 2. The `stories_config.yaml` file is already listed in `.gitignore`.
 # ==============================================================================
 
+# --- Case Study 1: Inventory Audit ---
+# This story exports a single, explicitly named view to a specific tab.
 story_01_inventory_audit:
+  # This MUST match a variable name under the 'variables' section in `secrets.yaml`.
   sheet_id_var: 'GDRIVE_SHEET_ID_story_01'
+  # Use 'exports' for precise control over what gets uploaded.
   exports:
+    # 'db_view' is the name of the view in your SQLite database.
     - db_view: 'inventory_audit'
+      # 'sheet_name' is the name of the tab (worksheet) it will be uploaded to.
       sheet_name: 'inventory_audit_data'
 
+# --- Case Study 2: Customer Retention ---
+# This story uses a prefix to find and export multiple views at once.
+# This is useful for dashboards with several related data sources.
 story_02_customer_retention_snapshot:
   sheet_id_var: 'GDRIVE_SHEET_ID_story_02'
+  # 'view_prefix' tells the script to find all views in the database
+  # that start with this string (e.g., 'dash_retention_cohorts', 'dash_retention_clv').
+  # Each view will be uploaded to a new tab named after the view itself.
   view_prefix: 'dash_retention_'
 
+# --- Example for a future story ---
 story_03_product_profitability_review:
   sheet_id_var: 'GDRIVE_SHEET_ID_story_03'
   view_prefix: 'profit_'
-
-story_05_vp_request:
-  sheet_id_var: 'GDRIVE_SHEET_ID_story_05'
-  view_prefix: 'dash_'
