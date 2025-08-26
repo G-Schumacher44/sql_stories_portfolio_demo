@@ -29,10 +29,7 @@ Key risks and opportunities addressed:
 - **Analysis Notebook (Full Analysis & Visuals, Primary Deliverable)** → [`Executive_Retention_Report.ipynb`](Executive_Retention_Report.ipynb) – Visual storytelling and diagnostic 
   - [View in nbviewer (fast)](https://nbviewer.org/github/G-Schumacher44/sql_stories_portfolio_demo/blob/main/story_02_customer_retention_snapshot/Executive_Retention_Report.ipynb)
 &nbsp;|&nbsp;
-  - [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/G-Schumacher44/sql_stories_portfolio_demo/HEAD?labpath=story_02_customer_retention_snapshot%2FExecutive_Retention_Report.ipynb)
-&nbsp;|&nbsp;
-  - [Open on GitHub](https://github.com/G-Schumacher44/sql_stories_portfolio_demo/blob/main/story_02_customer_retention_snapshot/Executive_Retention_Report.ipynb)
-
+ 
 
 
 
