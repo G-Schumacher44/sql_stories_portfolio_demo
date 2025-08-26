@@ -113,7 +113,7 @@ ___
 ---
 
 <div align="center">
-  <a href="../README.md#-sql-case-studies--portfolio">
+  <a href="../README.md">
     ⬆️ <b>Back to Top</b>
   </a>
 </div>

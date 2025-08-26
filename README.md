@@ -129,7 +129,7 @@ This portfolio is one part of a larger, interconnected set of projects. Here’s
 - The `ecom_retailer.db` (v0.2.5) is the primary database for the live stories.
 - Full documentation overhaul for a portfolio-focused presentation.
 - Added an automated data pipeline and supporting utility scripts.
-  
+- 
 **v0.1.0 — Alpha Launch**
 - Includes fully built database and `db_builder.zip`
 - Five scenarios with ascending complexity (CR 1–5)
@@ -235,7 +235,7 @@ This project is licensed under the [MIT License](LICENSE).</file>
 ---
 
 <div align="center">
-  <a href="#-sql-case-studies--portfolio">
+  <a href="#">
     ⬆️ <b>Back to Top</b>
   </a>
 </div>

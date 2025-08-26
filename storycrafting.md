@@ -94,7 +94,7 @@ These stories replicate that — helping you build SQL muscle in realistic conte
 ---
 
 <div align="center">
-  <a href="#-sql-case-studies--portfolio">
+  <a href="README.md">
     ⬆️ <b>Back to Top</b>
   </a>
 </div>

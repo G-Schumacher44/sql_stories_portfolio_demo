@@ -137,7 +137,7 @@ The following key files are included as part of the handoff package:
 ---
 
 <div align="center">
-  <a href="../../README.md#-sql-case-studies--portfolio">
+  <a href="../../README.md">
     ⬆️ <b>Back to Top</b>
   </a>
 </div>

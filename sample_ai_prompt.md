@@ -41,7 +41,7 @@ Please keep the tone grounded and professional, with enough narrative to make it
 ---
 
 <div align="center">
-  <a href="#-sql-case-studies--portfolio">
+  <a href="README.md">
     ⬆️ <b>Back to Top</b>
   </a>
 </div>

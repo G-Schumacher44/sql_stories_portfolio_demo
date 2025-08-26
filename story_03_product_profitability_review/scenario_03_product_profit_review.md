@@ -46,7 +46,7 @@ This scenario uses `ecom_retailer_v3.db`, simulating product-level sales and ret
 This scenario moves from proxy margins to **true contribution analysis**: discounting, COGS via `cost_price`, returns, and shipping variance are all incorporated. It teaches negative contribution detection, allocation transparency, and loss attribution (returns vs. shipping), mirroring how finance partners evaluate SKU- and category-level value creation.
 
 <div align="center">
-  <a href="../README.md#-sql-case-studies--portfolio">
+  <a href="../README.md">
     ⬆️ <b>Back to Top</b>
   </a>
 </div>

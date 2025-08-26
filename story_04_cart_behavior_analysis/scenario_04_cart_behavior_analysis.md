@@ -53,7 +53,7 @@ This diagnostic uses `ecom_retailer_v3.db`, a simulated ecommerce dataset with b
 This scenario introduces cohort grouping, temporal analysis, segmentation, and churn proxy signals — ideal for building intermediate SQL and customer analytics skills.
 
 <div align="center">
-  <a href="../README.md#-sql-case-studies--portfolio">
+  <a href="../README.md">
     ⬆️ <b>Back to Top</b>
   </a>
 </div>
