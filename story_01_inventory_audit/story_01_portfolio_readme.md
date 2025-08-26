@@ -81,7 +81,7 @@ ___
 ## 📦 Key Deliverables  
 - **Executive Summary** → [`reports/inv_audit_exec_summary.md`](reports/inv_audit_exec_summary.md)  
 - **Interactive Workbook** → [`Live Google Sheets Workbook`](https://docs.google.com/spreadsheets/d/1PuANFstg9yOWV84X1mOoblQp4ProvaSo4iYJ1ONZM7k/edit?usp=sharing)
-- **Analysis Notebook** →[exec_report_viz.ipynb](https://nbviewer.org/github/G-Schumacher44/sql_stories_portfolio_demo/blob/main/story_01_inventory_audit/exec_report_viz.ipynb) 
+- **Analysis Notebook** → [exec_report_viz.ipynb](https://nbviewer.org/github/G-Schumacher44/sql_stories_portfolio_demo/blob/main/story_01_inventory_audit/exec_report_viz.ipynb) 
    
 
 
