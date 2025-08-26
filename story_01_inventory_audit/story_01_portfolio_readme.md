@@ -25,8 +25,7 @@ Key risks addressed:
 - **Executive Summary (Quick Read)** → [`reports/inv_audit_exec_summary.md`](reports/inv_audit_exec_summary.md) – High-level insights, risks, and recommendations.  
 - **Interactive Workbook (Deeper Dive)** → [`Live Google Sheets Workbook`](https://docs.google.com/spreadsheets/d/1PuANFstg9yOWV84X1mOoblQp4ProvaSo4iYJ1ONZM7k/edit?usp=sharing) – Drilldown exploration by SKU/category with pivots and filters.  
 - **SQL Sessions (Technical Build)** → [`sql_sessions/`](sql_sessions/) – SQL queries for building the audit view and exploratory analysis.  
-- **Analysis Notebook (Full Analysis & Visuals)** → [`exec_report_viz.ipynb`](exec_report_viz.ipynb) – Visual storytelling and diagnostic deep-dive.   
-
+- **Analysis Notebook (Full Analysis & Visuals)** → [exec_report_viz.ipynb](https://nbviewer.org/github/G-Schumacher44/sql_stories_portfolio_demo/blob/main/story_01_inventory_audit/exec_report_viz.ipynb) – Visual storytelling and diagnostic deep-dive.
  
  > 📝 **Note for Portfolio Reviewers**  
 > This case study is designed to demonstrate how I approach **end-to-end analytics problems** — from raw SQL queries to executive-ready insights.  
