@@ -28,7 +28,7 @@ Key risks and opportunities addressed:
 - **SQL Sessions (Deeper Dive)** → [`sql_sessions/`](sql_sessions/) – SQL queries for building retention views and data pipeline.  
 - **Analysis Notebook (Full Analysis & Visuals, Primary Deliverable)** → [`Executive_Retention_Report.ipynb`](Executive_Retention_Report.ipynb) – Visual storytelling and diagnostic 
   - [View in nbviewer](https://nbviewer.org/github/G-Schumacher44/sql_stories_portfolio_demo/blob/main/story_02_customer_retention_snapshot/Executive_Retention_Report.ipynb)
-&nbsp;|&nbsp;
+&nbsp;
  
 
 
