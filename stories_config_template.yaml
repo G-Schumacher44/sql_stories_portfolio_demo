@@ -1,0 +1,32 @@
+# ==============================================================================
+# stories_config.yaml
+#
+# Central configuration for the data pipeline. This file maps each "story"
+# to its corresponding Google Sheet and defines which database views to export.
+#
+# How it works:
+# The `run_story.sh` script calls `g_drive_uploader.py` with a story name.
+# The uploader script uses this file to find:
+#   1. `sheet_id_var`: The name of the variable in `secrets.yaml` that holds the Google Sheet ID.
+#   2. `exports` or `view_prefix`: The specific views to upload.
+#      - `exports`: A specific list of views and their target sheet (tab) names.
+#      - `view_prefix`: A prefix to automatically find and upload all matching views.
+# ==============================================================================
+
+story_01_inventory_audit:
+  sheet_id_var: 'GDRIVE_SHEET_ID_story_01'
+  exports:
+    - db_view: 'inventory_audit'
+      sheet_name: 'inventory_audit_data'
+
+story_02_customer_retention_snapshot:
+  sheet_id_var: 'GDRIVE_SHEET_ID_story_02'
+  view_prefix: 'dash_retention_'
+
+story_03_product_profitability_review:
+  sheet_id_var: 'GDRIVE_SHEET_ID_story_03'
+  view_prefix: 'profit_'
+
+story_05_vp_request:
+  sheet_id_var: 'GDRIVE_SHEET_ID_story_05'
+  view_prefix: 'dash_'
