@@ -48,12 +48,6 @@ This scenario challenges analysts to apply SQL diagnostics to real operational q
 
 ---
 
-<div align="center">
-  <a href="../README.md">
-    ⬆️ <b>Back to Top</b>
-  </a>
-</div>
-
 <p align="center">
   <a href="../README.md">🏠 <b>Main README</b></a>
   &nbsp;·&nbsp;

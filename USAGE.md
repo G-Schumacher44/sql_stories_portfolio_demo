@@ -119,12 +119,6 @@ You can now run `./run_story.sh story_02_new_feature` to execute the full pipeli
 
 ---
 
-<div align="center">
-  <a href="README.md">
-    ⬆️ <b>Back to Top</b>
-  </a>
-</div>
-
 <p align="center">
   <a href="README.md">🏠 <b>Main README</b></a>
   &nbsp;·&nbsp;

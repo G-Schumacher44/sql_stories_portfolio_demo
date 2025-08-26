@@ -85,12 +85,6 @@ The retention snapshot provides a comprehensive analysis of customer behavior, r
 
 ---
 
-<div align="center">
-  <a href="../../README.md">
-    ⬆️ <b>Back to Top</b>
-  </a>
-</div>
-
 <p align="center">
   <a href="../../README.md">🏠 <b>Main README</b></a>
   &nbsp;·&nbsp;

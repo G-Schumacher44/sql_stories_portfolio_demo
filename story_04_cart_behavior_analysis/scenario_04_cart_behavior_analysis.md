@@ -52,12 +52,6 @@ This diagnostic uses `ecom_retailer_v3.db`, a simulated ecommerce dataset with b
 >✍️ Analytical Framing:  
 This scenario introduces cohort grouping, temporal analysis, segmentation, and churn proxy signals — ideal for building intermediate SQL and customer analytics skills.
 
-<div align="center">
-  <a href="../README.md">
-    ⬆️ <b>Back to Top</b>
-  </a>
-</div>
-
 <p align="center">
   <a href="../README.md">🏠 <b>Main README</b></a>
   &nbsp;·&nbsp;

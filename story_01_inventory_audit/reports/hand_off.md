@@ -136,12 +136,6 @@ The following key files are included as part of the handoff package:
 
 ---
 
-<div align="center">
-  <a href="../../README.md">
-    ⬆️ <b>Back to Top</b>
-  </a>
-</div>
-
 <p align="center">
   <a href="../../README.md">🏠 <b>Main README</b></a>
   &nbsp;·&nbsp;

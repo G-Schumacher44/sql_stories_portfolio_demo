@@ -96,12 +96,6 @@ This framework provides a structured, repeatable way to diagnose retention healt
 
 ---
 
-<div align="center">
-  <a href="../README.md">
-    ⬆️ <b>Back to Top</b>
-  </a>
-</div>
-
 <p align="center">
   <a href="../README.md">🏠 <b>Main README</b></a>
   &nbsp;·&nbsp;

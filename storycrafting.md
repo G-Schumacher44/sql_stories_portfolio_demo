@@ -93,12 +93,6 @@ These stories replicate that — helping you build SQL muscle in realistic conte
 
 ---
 
-<div align="center">
-  <a href="README.md">
-    ⬆️ <b>Back to Top</b>
-  </a>
-</div>
-
 <p align="center">
   <a href="README.md">🏠 <b>Main README</b></a>
   &nbsp;·&nbsp;

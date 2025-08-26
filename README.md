@@ -234,12 +234,6 @@ This project is licensed under the [MIT License](LICENSE).</file>
 
 ---
 
-<div align="center">
-  <a href="#">
-    ⬆️ <b>Back to Top</b>
-  </a>
-</div>
-
 <p align="center">
   <a href="README.md">🏠 <b>Main README</b></a>
   &nbsp;·&nbsp;

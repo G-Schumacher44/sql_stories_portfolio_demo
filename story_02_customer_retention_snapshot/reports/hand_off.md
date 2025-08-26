@@ -52,12 +52,6 @@ The generator simulates realistic customer, order, return, and loyalty program b
 
 ---
 
-<div align="center">
-  <a href="../../README.md">
-    ⬆️ <b>Back to Top</b>
-  </a>
-</div>
-
 <p align="center">
   <a href="../../README.md">🏠 <b>Main README</b></a>
   &nbsp;·&nbsp;
