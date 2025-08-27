@@ -2,7 +2,7 @@
 
 
 The Marketing Team specifically requested a retention snapshot to guide strategy, recognizing customer retention as a powerful driver of growth and profitability. This snapshot uncovered key opportunities across three core areas: early engagement, seasonal conversion spikes, and loyalty program gaps. Additionally, the analysis surfaced further areas for future exploration, such as channel optimization and customer segmentation. The following report delves into these insights, providing a detailed look at customer segment engagement and actionable recommendations to strengthen loyalty and reduce churn.
-The full analysis and visualizations are available in the [Retention Report Notebook](Executive_Retention_Report.html).
+The full analysis and visualizations are available in the [`Executive_Retention_Report.ipynb`](https://nbviewer.org/github/G-Schumacher44/sql_stories_portfolio_demo/blob/main/story_02_customer_retention_snapshot/Executive_Retention_Report.ipynb).
 ___
 
 ## 📊 KPI Snapshot
