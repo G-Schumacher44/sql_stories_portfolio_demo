@@ -13,6 +13,7 @@ dist/
 *.csv
 *.db
 !ecom_retailer.db
+!ecom_retailer_v3.db
 !database.zip
 
 # --- Config & Secrets ---
