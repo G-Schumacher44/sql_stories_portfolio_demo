@@ -2,7 +2,7 @@
 
 
 The Marketing Team specifically requested a retention snapshot to guide strategy, recognizing customer retention as a powerful driver of growth and profitability. This snapshot uncovered key opportunities across three core areas: early engagement, seasonal conversion spikes, and loyalty program gaps. Additionally, the analysis surfaced further areas for future exploration, such as channel optimization and customer segmentation. The following report delves into these insights, providing a detailed look at customer segment engagement and actionable recommendations to strengthen loyalty and reduce churn.
-
+The full analysis and visualizations are available in the [Retention Report Notebook](Executive_Retention_Report.html).
 ___
 
 ## 📊 KPI Snapshot
@@ -69,10 +69,11 @@ ___
 ## 📦 Key Deliverables
 
 - `sql_sessions/` folder – includes SQL scripts for building cohort, loyalty, and CLV views.
-- `sql_sessions/build_02_retention_views.sql` – main SQL script to create and refresh retention views.
-- `Executive_Retention_Report.ipynb` – full analysis notebook with queries, visuals, and insights.
-- `executive_retention_summary.md` – concise one-page executive summary for decision-makers.
-- `reports/hand_off.md` – hand-off guide for stakeholders and future analysts.
+- `../sql_sessions/build_02_retention_views.sql` – main SQL script to create and refresh retention views.
+- `../Executive_Retention_Report.ipynb` – full analysis notebook with queries, visuals, and insights.
+- `Executive_Retention_Report.html` – HTML version of the full analysis, suitable for non-technical stakeholders.
+- `executive_retention_summary.md` – this one-page executive summary for decision-makers.
+- `hand_off.md` – hand-off guide for stakeholders and future analysts.
 
 ___
 

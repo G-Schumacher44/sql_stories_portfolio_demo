@@ -92,17 +92,17 @@ This portfolio is one part of a larger, interconnected set of projects. Here’s
 <summary>📐 What’s Included</summary>
 
 *   **Two Completed Case Studies**: Full end-to-end workflows for  
-    - [story_01_inventory_audit](story_01_inventory_audit/story_01_portfolio_readme.md)  
-    - [story_02_customer_retention_snapshot](story_02_customer_retention_snapshot/story_02_portfolio_readme.md)
+    - [`story_01_inventory_audit`](story_01_inventory_audit/story_01_portfolio_readme.md)  
+    - [`story_02_customer_retention_snapshot`](story_02_customer_retention_snapshot/story_02_portfolio_readme.md)
 
 *   **Pre-built Databases**: Packaged in  
-    - [`ecom_data_gen_output/database.zip`](sql_stories_portfolio_demo/ecom_data_gen_output/database.zip), including  
+    - [`ecom_data_gen_output/database.zip`](ecom_data_gen_output/database.zip), including  
       - [`ecom_retailer.db`](ecom_retailer.db) (for stories 1 & 2)  
-      - [`ecom_retailer_v3.db`](sql_stories_portfolio_demo/ecom_data_gen_output/database.zip) (for future stories).
+      - [`ecom_retailer_v3.db`](ecom_retailer_v3.db) (for future stories).
 
 *   **Automated Data Pipeline**: A system to execute SQL and upload results to Google Sheets.  
     - [`run_story.sh`](run_story.sh): The main pipeline orchestrator.  
-    - [`scripts/g_drive_uploader.py`](sql_stories_portfolio_demo/scripts/g_drive_uploader.py): Upload script for Google Drive/Sheets.  
+    - [`scripts/g_drive_uploader.py`](scripts/g_drive_uploader.py): Upload script for Google Drive/Sheets.  
     - Configuration templates:  
       - [`secrets_template.yaml`](secrets_template.yaml)  
       - [`stories_config_template.yaml`](stories_config_template.yaml)  
