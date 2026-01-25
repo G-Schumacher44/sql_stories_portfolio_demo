@@ -14,14 +14,14 @@ This project produced two primary deliverables for the Fulfillment team:
    - Includes attention flag breakdowns, category‑level summaries, and recommendations for reducing waste.  
    - Designed for quick stakeholder review and decision‑making.  
 
-2. **Interactive Workbook (Excel/Google Sheets)**  
+2. **Interactive Workbook (Deprecated)**  
    - Drill-down tool with pivot tables and filters at the SKU level.  
    - Tracks utilization ratios, return rates, and locked capital by product, category, or attention tier.  
    - Provides visual flags (✅🔵🟡🔴) for at-a-glance risk recognition.  
    - Includes scaffolding for semi-automated data refresh via Apps Script.  
-   - **Live version available here:** [Inventory Audit Workbook – Google Sheets](https://docs.google.com/spreadsheets/d/1PuANFstg9yOWV84X1mOoblQp4ProvaSo4iYJ1ONZM7k/edit?gid=2045234789#gid=2045234789)  
+   - This workbook asset has been removed from the repo and is no longer available.  
 
-Together, these deliverables enable both **strategic overview** (executive summary) and **operational action** (SKU‑level workbook).
+Together, these deliverables enable both **strategic overview** (executive summary) and **operational action** (historical workbook reference, now deprecated).
 
 ## 🎯 Objectives
 
@@ -57,7 +57,7 @@ Together, these deliverables enable both **strategic overview** (executive summa
 
 - **SQLite:** Chosen for simplicity and portability; lightweight, no server setup required, perfect for synthetic data exploration.  
 - **Python (Jupyter + Pandas/Matplotlib):** Used for deeper analysis and visualizations beyond what pivot tables can show; enables reproducible, code-driven EDA.  
-- **Google Sheets Workbook:** Provides an accessible, non-technical interface for the fulfillment team. Stakeholders can filter, pivot, and explore without writing SQL.  
+- **Google Sheets Workbook (Deprecated):** Previously provided an accessible, non-technical interface for the fulfillment team. The workbook asset has been removed.  
 - **Hybrid Workflow:** SQL handled heavy data prep; Python added flexibility for diagnostics; Sheets gave the business team a hands-on operational view.  
 
 This layered approach ensured the right tool was used for each stage of the project, balancing rigor with usability.
@@ -110,7 +110,7 @@ These signals are combined into a *composite score between 0 and 1*. Products wi
 
 ### 🤖 Automation Layer (Future Potential)
 
-Looking ahead, this workflow could be automated by scripting the SQL queries to run on a scheduled basis, with outputs pushed directly to Google Sheets for real-time access. Summary reports and alerts could be automatically emailed to stakeholders to ensure timely awareness of inventory issues. Currently, the workbook includes a scaffolded Google Apps Script for manual data refreshes, and future development could extend this to full automation, reducing manual effort and improving responsiveness.
+Looking ahead, this workflow could be automated by scripting the SQL queries to run on a scheduled basis, with outputs pushed directly to Google Sheets for real-time access. Summary reports and alerts could be automatically emailed to stakeholders to ensure timely awareness of inventory issues. The workbook previously included a scaffolded Google Apps Script for manual data refreshes, and future development could extend this to full automation, reducing manual effort and improving responsiveness.
 
 ### 🔄 Peer Review & Iteration
 
@@ -127,8 +127,7 @@ The following key files are included as part of the handoff package:
 
 - `inv_audit_exec_summary.md` – Executive summary of findings providing a high-level overview of audit results and key insights for stakeholders.
 - `dashboard.png` – Visual snapshot of the dashboard illustrating inventory accuracy metrics and attention flags for quick status assessment.
-- `inventory_audit_workbook.xlsx` – Static version of the analysis workbook.  
-- [Google Sheets Workbook (Live Interactive Version)](https://docs.google.com/spreadsheets/d/1PuANFstg9yOWV84X1mOoblQp4ProvaSo4iYJ1ONZM7k/edit?gid=2045234789#gid=2045234789) – Shared live tool for ongoing exploration and drilldowns.
+- `inventory_audit_workbook.xlsx` – Deprecated (removed from repository).  
 - `build_inventory_audit_view.sql` – Core SQL script defining the audit view that consolidates and prepares inventory data for analysis.
 - `eda_inv_audit.sql` – Exploratory data analysis queries used to investigate patterns and anomalies in the inventory data.
 - `eda_inv_audit_viz.sql` – EDA visualization queries that support graphical representations of inventory trends and discrepancies.

@@ -32,7 +32,7 @@ This repository contains two complete case studies. Each demonstrates a full ana
 
 *   **Case Study 1: [Inventory Audit & Efficiency Analysis](story_01_inventory_audit/story_01_portfolio_readme.md)**
     *   **Focus:** Operational Analytics, Financial Impact
-    *   **Summary:** A deep-dive into inventory management that quantifies $19M in locked capital, identifies at-risk SKUs with a custom scoring system, and provides an interactive workbook for business users.
+    *   **Summary:** A deep-dive into inventory management that quantifies $19M in locked capital, identifies at-risk SKUs with a custom scoring system, and formerly included an interactive workbook (now deprecated).
 
 *   **Case Study 2: [Customer Retention & Lifecycle Snapshot](story_02_customer_retention_snapshot/story_02_portfolio_readme.md)**
     *   **Focus:** Growth Analytics, Customer Segmentation

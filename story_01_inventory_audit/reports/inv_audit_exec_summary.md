@@ -50,7 +50,7 @@ Based on these findings, the following actions are recommended:
 
 1.  **Immediate Triage of Tier 2 & 3 SKUs:**
     *   Launch an immediate, in-depth review of all Atention Flagged - Tier 2 & 3 products.
-    *  🚨 Focus on SKUs that have high return rates, as these pose the greatest risk to customer satisfaction and profitability.(flagged in accompanying workbook) 
+    *  🚨 Focus on SKUs that have high return rates, as these pose the greatest risk to customer satisfaction and profitability (flagged in the audit view). 
     *  💰 Mitigating Tier 2 & 3 risks by 50% could prevent $500k annually in avoidable losses, directly improving margin protection and freeing working capital.
 
 2.  **Category-Level Strategic Review:**
@@ -73,19 +73,18 @@ ___
 ## Key Deliverables
 
 - **Executive Summary (this document):** High-level narrative of findings, risks, and recommendations for stakeholders.  
-- **Interactive Workbook (Excel/Google Sheets):** Drill-down tool with pivot tables and filters to explore utilization, locked capital, and returns by SKU/category.
-  - Live version: [Inventory Audit Workbook – Google Sheets](https://docs.google.com/spreadsheets/d/1PuANFstg9yOWV84X1mOoblQp4ProvaSo4iYJ1ONZM7k/edit?gid=2045234789#gid=2045234789)  
+- **Interactive Workbook (Deprecated):** Former drill-down tool with pivot tables and filters to explore utilization, locked capital, and returns by SKU/category. The asset has been removed.
 - **SQL Audit View (`build_inventory_audit_view.sql`):** Core script consolidating product, sales, and returns data into the inventory audit view with KPIs and flags.  
 - **EDA Scripts (`eda_inv_audit.sql`, `eda_inv_audit_viz.sql`):** Supporting SQL for exploratory analysis and visualizations of patterns and anomalies.   
 - **Executive Report Notebook (`exec_report_viz.ipynb`):** Supplementary Python/Jupyter assets to reproduce and extend the visuals.
 
 ___
 
-## 📑 Workbook Overview
+## 📑 Workbook Overview (Deprecated)
 
   <p align="center"><img src="../files/dashboard.png" width="600" /></p>
 
-The **Inventory Audit Workbook** is designed as the primary interactive tool for exploring results.  
+The **Inventory Audit Workbook** was designed as the primary interactive tool for exploring results.  
 It includes:
 
 - **Drill-Down Views:** SKU-level detail with filters for category, tier flag, and utilization ratio.  
@@ -107,7 +106,7 @@ To prioritize which SKUs demand action, we designed a weighted scoring system th
 
 These signals are combined into a *composite score between 0 and 1*. Products with higher scores indicate stronger red flags and are automatically grouped into four tiers **(Healthy → High Risk)**. This makes it easy for business users to focus on the most critical inventory problems first, while still keeping visibility on emerging risks across the full catalog.
 
->This workbook serves as the operational layer of the project, giving fulfillment and category managers a way to prioritize SKUs, quantify impacts, and monitor improvements over time.
+>This workbook served as the operational layer of the project, giving fulfillment and category managers a way to prioritize SKUs, quantify impacts, and monitor improvements over time. It is now deprecated and no longer included.
 
 ---
 

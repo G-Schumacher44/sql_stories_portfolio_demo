@@ -23,7 +23,7 @@ Key risks addressed:
 ### ▶️ Where to Start
 - **Scenario Brief** → [`scenario_01_inventory_audit.md`](scenario_01_inventory_audit.md) – Overview of the simulated business scenario.
 - **Executive Summary (Quick Read)** → [`reports/inv_audit_exec_summary.md`](reports/inv_audit_exec_summary.md) – High-level insights, risks, and recommendations.  
-- **Interactive Workbook (Deeper Dive)** → [`Live Google Sheets Workbook`](https://docs.google.com/spreadsheets/d/1PuANFstg9yOWV84X1mOoblQp4ProvaSo4iYJ1ONZM7k/edit?usp=sharing) – Drilldown exploration by SKU/category with pivots and filters.  
+- **Interactive Workbook (Deprecated)** → Previously linked for SKU/category drilldowns; the workbook asset has been removed.  
 - **SQL Sessions (Technical Build)** → [`sql_sessions/`](sql_sessions/) – SQL queries for building the audit view and exploratory analysis.  
 - **Analysis Notebook (Full Analysis & Visuals)** → [exec_report_viz.ipynb](https://nbviewer.org/github/G-Schumacher44/sql_stories_portfolio_demo/blob/main/story_01_inventory_audit/exec_report_viz.ipynb) – Visual storytelling and diagnostic deep-dive.
  
@@ -33,7 +33,7 @@ Key risks addressed:
 > What you’ll see here:  
 > - **Business Framing** → translating a messy, real-world inventory problem into clear objectives.  
 > - **Technical Execution** → SQL views, exploratory analysis, and Python visualizations to surface risks and KPIs.  
-> - **Stakeholder Communication** → executive summary, handoff document, and interactive workbook tailored for business users.  
+> - **Stakeholder Communication** → executive summary, handoff document, and a previously available interactive workbook (now deprecated).  
 > - **Portfolio Fit** → a balance of analytical rigor (cleaning, metrics, scoring system) and business impact (financial exposure, recommendations).  
 > 
 > This project shows both my **technical proficiency** and my **ability to communicate data-driven insights in a business-friendly way**.
@@ -80,7 +80,7 @@ ___
 
 ## 📦 Key Deliverables  
 - **Executive Summary** → [`reports/inv_audit_exec_summary.md`](reports/inv_audit_exec_summary.md)  
-- **Interactive Workbook** → [`Live Google Sheets Workbook`](https://docs.google.com/spreadsheets/d/1PuANFstg9yOWV84X1mOoblQp4ProvaSo4iYJ1ONZM7k/edit?usp=sharing)
+- **Interactive Workbook (Deprecated)** → Asset removed; reference kept for historical context.  
 - **Analysis Notebook** → [exec_report_viz.ipynb](https://nbviewer.org/github/G-Schumacher44/sql_stories_portfolio_demo/blob/main/story_01_inventory_audit/exec_report_viz.ipynb) 
    
 

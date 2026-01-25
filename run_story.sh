@@ -12,7 +12,7 @@
 #   ./run_story.sh <story_name> [db_name]
 #
 # Examples:
-#   ./run_story.sh story_01_inventory_audit
+#  
 #   ./run_story.sh story_02_customer_retention_snapshot
 # ==============================================================================
 
